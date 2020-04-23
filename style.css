@@ -1,0 +1,99 @@
+body{
+    background: #f2dff7;
+    /* margin:0; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+ }
+
+  .container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: #f2dff7;
+   
+}   
+.inner-container{
+ 
+    background: linear-gradient(70deg,#390b3e,#b847a9,#5346b9,#bd427d);
+     display:flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+ height: 21em; 
+    width: 20em;
+    margin: 5em 0 5em 0;
+    border-radius: 2em 0 2em 0;
+
+}
+
+input{
+     display:block;  
+    margin-top:1em;
+    width:15em;
+    background: #390b3e;
+    height:2em;
+    border:2px solid#9658a1;
+    border-radius: 5px;
+    outline: none;
+    color:#A9A9A9;
+}
+[placeholder="Email"]{
+    padding-left:1em;
+    }
+[placeholder="Password"]{
+    padding-left: 1em;
+}
+p{
+    text-align: center;
+    color:#A9A9A9
+}
+/* buttons */
+#login-button{
+    width:15em;
+    height:2em;
+    border-radius: 5px;
+     outline-color:#f906e1;
+    background:#ea15dc;
+    border: 1px solid#ea15dc;
+    margin:0.3em 0 0 0;
+   
+}
+#login-button:hover{
+    transform: scale(1.1)
+}
+#create-button{
+   
+    clear
+    
+
+/* icons */
+    #github{
+        margin: .5em;
+    }
+    #github:hover{
+        transform: scale(1.2);
+        cursor: pointer
+    }
+  #twitter{
+      color:#00acee ;
+      margin: .5em;
+  }
+  #twitter:hover{
+     transform: scale(1.2);
+    cursor: pointer
+}
+   #google{
+        COLOR:#DB4A39;
+        margin: .5em;
+  }
+  #google:hover{
+     transform: scale(1.2); 
+     cursor: pointer  
+}
+   #facebook{
+    color:#3a5796;
+    margin: .5em;
+} 
+#facebook:hover{
+    transform: scale(1.2);
+    cursor: pointer
+}
